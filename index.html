@@ -17,14 +17,17 @@
 
 <body>
 
-    <div id="container"> <!--Container init-->
+    <div id="container">
+        <!--Container init-->
 
-        <header><!--Header init-->
+        <header>
+            <!--Header init-->
             <div id="logo">
                 <h1><a href="">Museu Nacional</a></h1>
             </div>
 
-            <nav><!--Nav init-->
+            <nav>
+                <!--Nav init-->
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Exposições</a></li>
@@ -34,32 +37,78 @@
                     <li><a href="">Fotos</a></li>
                     <li><a href="">contato</a></li>
                 </ul>
-            </nav><!--Nav end-->
+            </nav>
+            <!--Nav end-->
 
-        </header><!--Header end-->
+        </header>
+        <!--Header end-->
 
         <div id="principal">
 
             <div id="conteudo">
-                
+
                 <section id="capa">
                     <img src="images/museu.png">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h3>Vídeo: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3><iframe
+                            src="https://www.google.com/maps/d/embed?mid=1QVy1I2lgwCO8PrfeDbSzcx0ptOA&ehbc=2E312F"
+                            width="310" height="170"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte com dinosauros - Paleoarte</a></li>
+                            <li><a href="#"><strong> Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Numa ponta que avançava sobre o mar, posteriormente conhecida como ponta
+                            do calabouço, entre praias de Piraçaba e Santa Luzia, no Centro histórico
+                            do Rio de Janeiro,  os portugueses construíram em 1603 a Fortaleza de Santiago,
+                            Origem do conjunto arquitetônico ue hoje abriga o Musei Histórico Nacional.
+                        </p>
+                        <a href=""><strong>Leia mais</strong></a>
+                    </article>
+
                 </section>
 
             </div>
 
             <aside>
-                
+
                 <section id="depoimento">
                     <img src="images/depoimento.png">
                 </section>
 
-                <section id="visita"><!--visit section init-->
+                <section id="visita">
+                    <!--visit section init-->
                     <h4>Faça uma visita</h4>
                     <form>
                         <fieldset>
                             <legend>Selecione uma data</legend>
-                            
+
                             <label for="data">Data</label>
                             <input class="campo" type="text" id="data" value="dd/mm/aaaa">
 
@@ -71,7 +120,8 @@
                         <input class="botao" type="submit" value="Verificar disponibilidade">
 
                     </form>
-                </section><!--visit section end-->
+                </section>
+                <!--visit section end-->
 
                 <section id="galeria">
                     <h4>Galeria de fotos</h4>
@@ -96,9 +146,28 @@
 
             </aside>
 
+            <footer>
+
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposicoes</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Videos</a>
+                    <a href="">Fotos</a>
+                    <a href="">contato</a>
+                </p>
+
+                <p>
+                    2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+
+            </footer>
+
         </div>
 
-    </div> <!--Container end-->
+    </div>
+    <!--Container end-->
 
 </body>
 
